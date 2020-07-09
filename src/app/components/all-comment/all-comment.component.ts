@@ -11,7 +11,8 @@ export class AllCommentComponent implements OnInit {
   comment: Comment[];
 
   constructor(private commentService: CommentService) {
-    this.commentService.getComment().subscribe(value => this.comment = value);
+    // ТУТ ПОМИЛКА
+    // this.commentService.getComment().subscribe(value => this.comment = value);
   }
 
   ngOnInit(): void {
