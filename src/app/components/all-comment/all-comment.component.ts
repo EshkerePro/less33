@@ -7,7 +7,7 @@ import {CommentService} from '../../service/comment.service';
   styleUrls: ['./all-comment.component.css']
 })
 export class AllCommentComponent implements OnInit {
-
+//v
   comment: Comment[];
 
   constructor(private commentService: CommentService) {
